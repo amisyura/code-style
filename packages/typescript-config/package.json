@@ -1,16 +1,24 @@
 {
-    "name": "@amisyura/typescript-config",
-    "version": "0.0.1",
-    "description": "Common Typescript config",
-    "files": [
-      "base.json",
-      "react-library.json"
-    ],
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "peerDependencies": {
-      "typescript": "^4.9.0"
-    }
+  "name": "@amisyura/typescript-config",
+  "version": "0.0.2",
+  "description": "Common Typescript config",
+  "files": [
+    "base.json",
+    "react-library.json"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amisyura/code-style.git",
+    "directory": "packages/typescript-config"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "typescript": "^4.9.0"
   }
+}
   

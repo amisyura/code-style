@@ -1,6 +1,6 @@
 {
   "name": "@amisyura/eslint-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Common ESLint config",
   "main": "index.js",
   "author": "Andrey Misyura",
@@ -8,6 +8,14 @@
   "files": [
     "index.js"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amisyura/code-style.git",
+    "directory": "packages/eslint-config"
+  },
   "peerDependencies": {
     "eslint": "^8.30.0",
     "prettier": "^2.8.0"
