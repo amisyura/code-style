@@ -9,6 +9,8 @@ module.exports = {
     plugins: ['react-hooks', 'import', 'jest'],
     env: {
         'jest/globals': true,
+        browser: true,
+        node: true,
     },
     rules: {
         '@typescript-eslint/ban-ts-comment': 'off',
